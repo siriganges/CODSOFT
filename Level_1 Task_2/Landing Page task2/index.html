@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="fonts/CopperPlate-Cond Bold.ttf">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="heading">Landing Page</div>
+        <span class="sideMenuButton" onclick="openNavbar()">
+            ☰
+        </span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side navigation bar for  
+        responsive website -->
+    <div class="sideNavigationBar" id="sideNavigationBar">
+        <a href="#" class="closeButton" onclick="closeNavbar()">
+            ❌
+        </a>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About us</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1 style="color: #557A46; font-size: 50px;">DECORATE YOUR HOME</h1>
+            <h1 style="color: burlywood;font-size: 40px;">With Us</h1>
+            <button style="margin-top: 16px;">
+                <a href="https://www.livingetc.com/buying-guides/best-home-decor-websites">
+                    Know More
+                </a>
+            </button>
+        </div>
+        <div class="side2">
+            <img src="images/sofa-4.jpg" width="500">
+        </div>
+    </div>
+
+    <section style="margin-top: 40px;" class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span>Color Palette</span>
+            </div>
+            <div class="boxes">
+                <div>
+                    <div class="pallete-circle color-1"></div>
+                    <div class="pallete-font">#ffffff</div>
+                </div>
+                <div>
+                    <div class="pallete-circle color-2"></div>
+                    <div class="pallete-font">#deb887</div>
+                </div>
+                <div>
+                    <div class="pallete-circle color-3"></div>
+                    <div class="pallete-font">#92d1ae</div>
+                </div>
+                <div>
+                    <div class="pallete-circle color-4"></div>
+                    <div class="pallete-font">#3f924d</div>
+                </div>
+            </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Get In Touch</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Message</label>
+                    </div>
+                    <div class="input2">
+                        <textarea style="height: 200px;border-color: rgb(252, 244, 244);
+                        width: 500px;" placeholder="Enter your description">
+                            </textarea>
+                    </div>
+                    <div class="button" type="submit">
+                        <button style="background-color: #3f924d;color: white;float: right; cursor: pointer;">Submit</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="title1">
+                            <span>
+                                Address
+                            </span>
+                        </div>
+                        <div class="content1">
+                            #416,Basavanagar,Bengaluru-560037
+                        </div>
+                        <div class="title1">
+                            <span>
+                                Email
+                            </span>
+                        </div>
+                        <div class="content1" style="color:rgb(184, 184, 6)">
+                            siriganges@gmail.com
+                        </div>
+                        <div class="title1">
+                            <span>
+                                Phone
+                            </span>
+                        </div>
+                        <div class="content1">
+                            (+91) 9964627666
+                        </div>
+                        <div class="title1">
+                            <span>
+                                Social Media
+                            </span>
+                        </div>
+                        <div style="display: flex;">
+                            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                            <a href="https://twitter.com" class="fa fa-twitter"></a>
+                            <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+               &copy;2023 reserved by Decoration Site
+            </span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
